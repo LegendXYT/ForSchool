@@ -1,0 +1,27 @@
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 18px;
+    color: black;
+}
+
+table,
+td,
+th {
+    text-align: center;
+    border: 2px solid #0C0DF0;
+}
+
+th {
+    background-color: #0C0DF0;
+    color: white;
+}
+
+th:hover,
+td:hover {
+    color: red
+}
+
+table {
+    margin: 6rem auto;
+    width: 50%;
+}
