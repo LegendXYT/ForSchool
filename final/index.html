@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section id="navSect">
+        <ul class="navbar">
+            <li><img id="imgLogo" src="images/images.jpg" alt=""></li>
+            <li><a id="homeNav" href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+    </section>
+    <section id="imgGal">
+        <table border="1" cellpadding="20">
+            <caption align="top">Image Gallery</caption>
+            <tr>
+                <th><img class="gallery" src="images/cat.jpg" alt=""></th>
+                <th><img class="gallery" src="images/mountain.webp" alt=""></th>
+                <th><img class="gallery" src="images/nature.jpg" alt=""></th>
+                <th><img class="gallery" src="images/road.jpeg" alt=""></th>
+            </tr>
+            <tr>
+                <td>Cat rocking the sun glasses</td>
+                <td>Mountain view</td>
+                <td>Nature walk strip</td>
+                <td>road in fall season</td>
+            </tr>
+        </table>
+    </section>
+    <section id="theForm">
+        <form>
+            <div id="formDiv">
+                <h1 id="formHeading">Product Enquiry Form</h1>
+                <section class="formSections">
+                    <label for="fname">Full Name:</label>
+                    <input type="text" id="fname" name="fname" placeholder="John Smith">
+                </section>
+                <section class="formSections">
+                    <label for="email">Email</label>
+                    <input name="email" id="email" type="email" placeholder="john@mail.com" >
+                </section>
+                <section class="formSections">
+                    <label for="products">Product:</label>
+                    <select name="select" id="products" value="Select">
+                        <option value="select">Select</option>
+                    </select>
+                </section>
+                <section class="formSections">
+                    <label for="message">Message:</label>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message here"></textarea>
+                </section>
+                <section class="formSections">
+                    <label for="newsletter">
+                        <input id="newsletter" type="checkbox" name="prefs">
+                        Subscribe for our newsletter
+                      </label>
+                </section>
+                <section class="formSections">
+                    <input type="submit" name="Submit" value="Submit"></input>
+                </section>  
+            </div>
+        </form>
+    </section>
+    <section id="articleSect">
+            <div id="articleDiv">
+                <h1 id="articleHeading">Main Heading - Font size 30px, font Arial</h1>
+                <h2 id="articleH2">Sub heading - Font size 24px, font Arial</h2>
+                <p class="articlePara">Article text - Font size 16px, font Arial</p>
+                <p class="articlePara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi fugia</p>
+                <h3 id="articleH3">Another heading - Font size 18px</h3>
+                <p class="articlePara">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum recusandae eaque amet nam quaerat, ratione, dignissimos saepe nulla deserunt culpa, totam voluptate. Libero similique incidunt perferendis delectus quam maiores iure.</p>    
+        </div>
+    </section>
+    
+</body>
+</html>

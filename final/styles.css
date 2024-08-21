@@ -1,0 +1,179 @@
+body {
+    font-family: Verdana, sans-serif;
+}
+
+#navSect {
+    font-size: 14px;
+}
+
+.navbar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: #0C0DF0;
+    border-radius: 5px;
+    overflow: auto;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: #F5D026;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+
+.navbar li a:active {
+    background-color: black;
+}
+
+.navbar li #homeNav {
+    background-color: black;
+}
+
+.navbar li a:hover {
+    color: #232376;
+}
+
+#imgLogo {
+    height: 100px;
+}
+
+#imgGal {
+    font-size: 18px;
+    color: black;
+}
+caption {
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+table,
+td,
+th {
+    text-align: center;
+    border: 2px solid #0C0DF0;
+}
+
+th {
+    background-color: #0C0DF0;
+    color: white;
+}
+
+th:hover,
+td:hover {
+    color: red
+}
+
+table {
+    margin: 6rem auto;
+    width: 50%;
+}
+
+.gallery {
+    width: 200px;
+    height: 150px;
+}
+
+#theForm {
+    box-sizing: border-box;
+}
+
+form {
+    color: black;
+    background: #F5D026;
+    margin: 6rem auto;
+    padding: 25px 0;
+    position: relative;
+    width: 500px;
+    height: 600px;
+    font-size: 14px;
+    line-height: 2rem;
+}
+
+#formHeading {
+    font-size: 18px;
+}
+
+#formDiv {
+    width: 378px;
+    position: absolute;
+    left: 12%;
+}
+
+.formSections {
+    margin: 1rem 0;
+}
+
+input,
+textarea,
+select {
+    display: block;
+    width: 370px;
+    height: 38px;
+    margin-top: 0.5rem;
+    border: 3px solid #0C0DF0;
+}
+
+textarea {
+    height: 80px;
+}
+
+[type="checkbox"] {
+    display: inline;
+    vertical-align: middle;
+    margin-right: 0.5rem;
+    accent-color: #6366f1;
+    width: 14px;
+}
+
+#button {
+    color: #FFFFFF;
+    background: #6366f1;
+    height: 45px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+    transition: background 0.2s;
+}
+
+#button:hover {
+    background: #4f46e5;
+}
+
+#articleSect {
+    font-family: Arial;
+    color: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.articlePara {
+    border: 0px;
+    width: 50%;
+    font-size: 16px;
+}
+
+#articleHeading {
+    font-size: 30px;
+}
+
+#articleH2 {
+    font-size: 24px;
+}
+
+#articleH3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+#articleDiv {
+    float: left;
+    padding-left: 50px;
+    background-color: #BDCACD;
+}
